@@ -1,0 +1,43 @@
+Full Stack Analytics on AWS
+
+Step 1 - Storage
+S3 - is the foundation
+Look into data catalog
+    Metadata store
+Look into events
+
+AWS Glue
+    Data Catalog - Core coponent
+    Job Authoring
+        Crawlers
+            Automatic Schema Inference
+    Job Exection
+        ETL
+            PySpark
+            Integration with lambda
+            Works with data catalog
+
+Step 0 - Security
+    At data/storage level (IAM)
+    http://amzn.to/2si6Rqs
+    Restict by IP
+    Use Versioning
+
+    Encryption
+        AWS Serverside encryption
+        AWS Key Management Service
+        AWS CloudHSM
+
+Getting data into S3
+    Transfer Acceleration
+    Paralize functions
+    Transfer Manager 
+
+Data at rest
+    Look into Amazon Athena
+        To query raw data
+            csv, json etc...
+
+QuickSight
+    AWS visualisation
+        Costs?
